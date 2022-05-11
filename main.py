@@ -52,7 +52,7 @@ class MainCar():
                 print("Years Used: ", self.YearsUsed)
                 # print(self.treadDepth.split('/')[0])
                 # print(self.treadDepth.split('/')[1])
-                print("Thread Depth Diteration Rate: ", fractions.Fraction(self.treadDepth.split('/')[0] + '/' + self.treadDepth.split('/')[1]) / 10/32)
+                print("Thread Depth Diteration Rate: ", fractions.Fraction(self.treadDepth.split('/')[0] + '/' + self.treadDepth.split('/')[1]) / 10/32))
             except NameError:
                 raise Exception('Unexpected fault creating Years Used.')
 
